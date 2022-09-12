@@ -20,5 +20,10 @@ class startMenu extends Phaser.Scene {
     howToButtonOverlay.on("pointerup", () => {
       this.scene.start('howToMenu');
     });
+
+    //Transition to gameplay//
+    startButtonOverlay.on("pointerup", () => {
+      this.scene.start('timerTest');
+    });
   }
 }

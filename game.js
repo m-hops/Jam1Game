@@ -11,8 +11,11 @@ var config = {
       }
     }
   },
-  scene: [startMenu, howToMenu]
+  scene: [startMenu, howToMenu, timerTest]
 };
+
+let text;
+let timedEvent;
 
 //Calls config and starts game//
 var game = new Phaser.Game(config);
